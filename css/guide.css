@@ -155,8 +155,15 @@ margin-left: 20px;
     padding: 30px;
     border-radius: 10px;
     position: relative;
+    transition: transform .35s ease, box-shadow .35s ease, filter .35s ease;
 
 
+}
+
+#card-guide:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
 }
 
 #card-guide img

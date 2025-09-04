@@ -576,6 +576,8 @@ background-color: #5bc0de;
 border-radius: 50%;
 width: 36px;
 height: 36px;
+position: relative;
+left: 13px;
 }
 
 .bg-profile svg
@@ -1002,7 +1004,9 @@ display: none;
     margin: 8px auto 0;
     position: static;
   }
-  #arrow { display: none; }        /* desktop arrows were absolutely offset */
+
+  #arrow { display: none; }   
+
   #review-card {
     display: grid;
     grid-template-columns: auto auto; 
@@ -1192,3 +1196,11 @@ left: 100px;
 }
 
 
+.comment-icon svg
+{
+width: 30px;
+height: 30px;
+color: white;
+position: relative;
+left: 14px;
+}
