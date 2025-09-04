@@ -709,7 +709,7 @@ left: 200px;
 #grid3
 {
     position: absolute;
-    top: 370px;
+    top: 470px;
     left: 340px;
     grid-template-columns: auto auto auto;
 }
@@ -822,7 +822,7 @@ width: 200px;
 #grid3
 {
     position: absolute;
-    top: 370px;
+    top: 470px;
     left: 340px;
     grid-template-columns: auto auto auto;
 }
