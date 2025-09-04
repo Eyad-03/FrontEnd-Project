@@ -1,0 +1,198 @@
+body
+{
+       background-color: rgb(246, 246, 246);
+       margin: 0px;
+       box-sizing: border-box;
+}
+
+#maingrid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 170px;
+}
+
+.arab-img
+{
+
+    width: 300px;
+    height: 378px;
+    position: relative;
+    left: 20px;
+    border-radius: 15px;
+}
+
+.mosq-img
+{
+    width: 300px;
+    height: 378px;
+    position: relative;
+    bottom: 90px;
+}
+
+.b7-img
+{
+    width: 139px;
+    height: 222px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+
+
+}
+
+.b6-img
+{
+    width: 139px;
+    height: 222px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+#gridone
+{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+
+#gridtwo
+{
+    margin-right: 100px;
+    margin-top: 150px;
+    height: 700px;
+}
+
+
+#gridtwo h2
+{
+    font-weight: bold;
+}
+
+
+#gridtwo p
+{
+    color: #97918B;
+}
+
+#description
+{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-des
+{
+
+     
+      background-color: #5bc0de; 
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 6px 0 6px 6px; 
+      font-family: Arial, sans-serif;
+      position: relative;
+      top: 10px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  
+}
+
+#static div
+{
+
+height: 122px;
+background-color: #c1c3c6;
+padding: 15px 35px;
+border-radius: 10px;
+
+
+}
+
+#static
+{
+display: flex;
+position: relative;
+right: 15px;
+top: 50px;
+margin-bottom: 10px;
+gap: 30px;
+width: 50px;
+
+
+}
+
+
+#static h3
+{
+text-align: center;
+color: white;
+
+}
+
+
+#static p
+{
+    color: #64748b;
+    text-align: center;
+}
+
+
+
+@media (max-width: 500px)
+{
+   
+    .b6-img
+    {
+        display: none;
+    }
+
+    .b7-img
+    {
+        display: none;
+    }
+
+
+    #maingrid
+    {
+        grid-template-columns: auto;
+    }
+
+    #gridtwo
+    {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+@media (min-width:500px) and (max-width:1024px)
+{
+
+    .b6-img
+    {
+        display: none;
+    }
+
+    .b7-img
+    {
+        display: none;
+    }
+
+    #static
+    {
+       position: relative;
+       right: 500px;
+    }
+
+
+}
